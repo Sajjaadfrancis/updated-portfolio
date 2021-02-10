@@ -131,11 +131,21 @@ export default class Resume extends Component {
               </h1>
             </div>
             <div className="nine columns main-col">
-              <p>
+              {/* <p>
                 Throughout my programming journey I have learnt many skills.
                 Below are my skill set statistics:
-              </p>
-              <div className="bars">
+              </p> */}
+
+              <div className="icons">
+                <i class="fab fa-html5"></i>
+                <i class="fab fa-css3-alt"></i>
+                <i class="fab fa-js"></i>
+                <i class="fab fa-react"></i>
+                <i class="fab fa-python"></i>
+                <i class="fab fa-java"></i>
+              </div>
+
+              {/* <div className="bars">
                 <ul className="skills">
                   <li>
                     <span className="bar-expand html" />
@@ -170,7 +180,7 @@ export default class Resume extends Component {
                     <em>C#</em>
                   </li>
                 </ul>
-              </div>
+              </div> */}
             </div>{" "}
           </div>{" "}
         </section>

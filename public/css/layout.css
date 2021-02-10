@@ -22,6 +22,36 @@ body { background: #0f0f0f; }
 /* b. Header Styles
 /* ------------------------------------------------------------------ */
 
+.icons {
+   font-size: 75px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.fa-html5 {
+   color: grey;
+}
+
+.fa-css3-alt {
+   color: grey;
+}
+
+.fa-js {
+   color: grey;
+}
+
+.fa-react {
+   color: grey;
+}
+
+.fa-python {
+   color: grey;
+}
+
+.fa-java {
+   color: grey;
+}
+
 header {
    position: relative;
    height: 900px;
