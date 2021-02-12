@@ -52,6 +52,10 @@ body { background: #0f0f0f; }
    color: grey;
 }
 
+.botpic {
+   width: 90px;
+}
+
 header {
    position: relative;
    height: 900px;

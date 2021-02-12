@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import image from "./161311346465.png";
 export default class Resume extends Component {
   render() {
     return (
@@ -143,6 +144,7 @@ export default class Resume extends Component {
                 <i class="fab fa-react"></i>
                 <i class="fab fa-python"></i>
                 <i class="fab fa-java"></i>
+                <img class="botpic" alt="" src={image} />
               </div>
 
               {/* <div className="bars">
